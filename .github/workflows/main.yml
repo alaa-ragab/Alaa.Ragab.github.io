@@ -15,6 +15,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: node5222.myfcloud.com
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        serverdir: /supermatgar/newsharq.com/
+        username: ${{ secrets.FTP_USERNAMEe }}
+        password: ${{ secrets.FTP_PASSWORDe }}
+        serverdir: /healsy.care/landing.healsy.care/
